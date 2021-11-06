@@ -11,8 +11,6 @@ public class ExerciseSix {
         num1 = sc.nextInt();
         System.out.println("Exponent");
         num2 = sc.nextInt();
-
-
         System.out.println(String.format("%d to the power of %d is = %d",num1, num2, power(num1, num2)));
     }
     public static int power(int x, int y){

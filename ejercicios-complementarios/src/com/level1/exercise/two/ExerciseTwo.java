@@ -1,5 +1,4 @@
 package com.level1.exercise.two;
-
 import java.util.Scanner;
 
 public class ExerciseTwo {
@@ -15,18 +14,13 @@ public class ExerciseTwo {
 
         int sum = num1 + num2;
         System.out.println(String.format("%d + %d = %d", num1, num2, sum));
-
         int subtraction = num1 - num2;
         System.out.println(String.format("%d - %d = %d", num1, num2, subtraction));
-
         int multiplication = num1 * num2;
         System.out.println(String.format("%d * %d = %d", num1, num2, multiplication));
-
         int division = num1 / num2;
         System.out.println(String.format("%d / %d = %d", num1, num2, division));
-
         int module = num1 % num2;
         System.out.println(String.format("%d %% %d = %d", num1, num2, module));
-
     }
 }

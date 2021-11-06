@@ -1,5 +1,4 @@
 package com.level1.exercise.five;
-
 import java.util.Scanner;
 
 public class ExerciseFive {
@@ -16,6 +15,5 @@ public class ExerciseFive {
             accountant += num1;
         }
         System.out.println(String.format("%d * %d = %d", num1, num2, accountant));
-
     }
 }

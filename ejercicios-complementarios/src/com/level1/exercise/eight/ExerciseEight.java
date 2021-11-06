@@ -1,5 +1,4 @@
 package com.level1.exercise.eight;
-
 import java.util.Scanner;
 
 public class ExerciseEight {
@@ -19,6 +18,5 @@ public class ExerciseEight {
 
         System.out.println("Your personal information: ");
         System.out.println(city + " - " + direction + " - " + age + " - " + name_and_surname);
-
     }
 }

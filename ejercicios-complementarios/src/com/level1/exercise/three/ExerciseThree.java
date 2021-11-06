@@ -1,5 +1,4 @@
 package com.level1.exercise.three;
-
 import java.util.Scanner;
 
 public class ExerciseThree {
@@ -8,12 +7,10 @@ public class ExerciseThree {
 
         System.out.println("Enter a number");
         int num = sc.nextInt();
-
         for(int i = 0; i < num; i++){
             for (int j = 0; j <= i; j++){
                 System.out.print( j + 1 + " ");
             }
-
             System.out.println();
         }
     }

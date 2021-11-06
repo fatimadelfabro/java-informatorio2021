@@ -1,13 +1,11 @@
 package com.level2.exercise.three;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class ExcerciseThree {
+public class ExerciseThree {
     public static void main (String [] args){
         List<Integer> frenchPlaying = new ArrayList<Integer>();
-
         for (int i = 0; i < 14; i++) {
             frenchPlaying.add(i+1);
         }
@@ -18,8 +16,5 @@ public class ExcerciseThree {
 
         Collections.shuffle(frenchPlaying);
         System.out.println("Disordered playing cards --> " + frenchPlaying);
-
-
-
     }
 }
